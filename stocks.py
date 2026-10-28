@@ -29,7 +29,7 @@ class Stocks:
 
         response = session.get(url=endpoint, params=parameters, timeout=30)
 
-        print(f"\nParameters:\n{parameters}\nResponse url:\n{response.url}\n")
+        print(f"Requesting stock data for {self.ticker_symbol}")
         response.raise_for_status()
         traded_data = response.json()
 

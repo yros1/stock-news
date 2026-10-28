@@ -1,5 +1,6 @@
 from dotenv import load_dotenv
 from stocks import Stocks
+from news import News
 
 print("##### START #####\n\n")
 
@@ -54,3 +55,36 @@ elif price_difference < 0:
 else:
     price_direction = "FLAT"
 print(f"price direction:\n{price_direction}")
+
+# 2. If there was a difference more than 1.0% between yesterday's closing price and
+#    the previous day, then get News API to fetch us some relevant news.
+#    That way figure out what is the reason for this rise or what is the
+#    reason for this fall. Send 4 messages with news articles to your WhatsUp.
+print("""
+###############################################
+################## NEWS API ###################
+###############################################
+""")
+if percentage_of_yesterday_closing_price > 1.0:
+    past_days = 15
+
+    news = News(about=stock_details["name"])
+    news_data = news.get_news_data(from_last=past_days, number_of_news=4)
+    # print(f"\nNews data:\n{news_data}")
+
+    # Data fetched from JSON file just for dev testing.
+    # news_data = None
+    # with open("Data/NEWSAPI_EVERYTHING_response.json", "r") as file:
+    #     news_data = json.load(file)
+
+    articles = news_data["articles"]
+    for article in articles:
+        print(f"""
+        {stock_details["name"]}({stock_details["ticker symbol"]}) {price_direction} by {percentage_of_yesterday_closing_price}%
+        {article["title"]}
+        {article["description"]}
+        author: {article["author"]}
+        link: {article["url"]}
+        published at: {article["publishedAt"]}
+        source: {article["source"]["name"]}
+        """)

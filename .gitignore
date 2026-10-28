@@ -221,3 +221,4 @@ __marimo__/
 
 # sqlite database files created for caching or testing purposes
 stock_cache.sqlite
+news_cache.sqlite

@@ -7,3 +7,4 @@ Activate your virtual environment, then install the project dependencies from th
 
 ```powershell
 python -m pip install -r requirements.txt
+```

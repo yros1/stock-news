@@ -1,0 +1,58 @@
+{
+  "status": "ok",
+  "totalResults": 3017,
+  "articles": [
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Elizabeth Lopatto",
+      "title": "Sure, let’s smoosh SpaceX and Tesla together, who cares",
+      "description": "Oh sure, SpaceX's credit risk is pretty high because it's about to borrow another $40 billion to spend on Nvidia chips, but who cares about that? SpaceX and Tesla have formed special committees to discuss a merger! The degree to which you find this merger com…",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1016879/spacex-tesla-cursed-katamari",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_A.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-10-22T19:35:04Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nSure, lets smoosh SpaceX and Tesla together, who cares\r\nYes, of course there are pay package incentives in play for Musk. But thats not all.\r\nby\r\nElizabeth Lopat… [+16118 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jay Peters",
+      "title": "SpaceX says big AI growth fueled revenue jump",
+      "description": "SpaceX announced revenues of $14.6 billion in its Q3 earnings on Tuesday, which it says was a growth of 161 percent year-over-year \"fueled by our Super Intelligence (SI) segment and accelerated growth in Connectivity.\" While its Space division posted a $7 mil…",
+      "url": "https://www.theverge.com/science/1014150/spacex-q3-2026-earnings",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/06/STKE012_SPACEX_IPO_2026_E.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "publishedAt": "2026-10-20T20:26:58Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nSpaceX announced revenues of $7.6 billion for its SI business in its Q3 2026 earnings.\r\nSpaceX announced revenues of $7.6 billion for its SI business in its Q3 2… [+2725 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Jess Weatherbed",
+      "title": "SpaceX preps next-gen Starlink as Amazon’s competitor stalls",
+      "description": "SpaceX is gearing up for a monumental flight today that's sure to be closely watched by Amazon. If successful, SpaceX will deploy its first Starlink V3 satellites, which tout meaningful upgrades to the ever-expanding Starlink constellation. The 26 satellites …",
+      "url": "https://www.theverge.com/science/1001259/spacex-starlink-satellites-starship-amazon-leo",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/05/STKB355_SPACEX_B.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+      "publishedAt": "2026-09-28T12:14:57Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nAmazon leo is struggling to get off the ground.\r\nAmazon leo is struggling to get off the ground.\r\nby\r\nJess WeatherbedClose\r\nPosts from this author will be added … [+4025 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Andrew J. Hawkins",
+      "title": "SpaceX will try catching Starship and its booster for first time, Musk says",
+      "description": "SpaceX CEO Elon Musk said the company would attempt to catch Starship and its booster next month, with the goal of recovering the entire orbital launch system for the first time. If successful, Musk said, the attempt would mark the first time in history an or…",
+      "url": "https://www.theverge.com/science/1014913/spacex-will-try-catching-starship-and-its-booster-for-first-time-musk-says",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0%2C13.419374014038%2C100%2C73.161251971924&w=1200",
+      "publishedAt": "2026-10-20T21:02:53Z",
+      "content": "<ul><li></li><li></li><li></li></ul>\r\nIf successful, it would be the first time in history an orbital launch vehicle has been fully recovered.\r\nIf successful, it would be the first time in history an… [+3528 chars]"
+    }
+  ]
+}
