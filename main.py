@@ -1,6 +1,7 @@
 from dotenv import load_dotenv
 from stocks import Stocks
 from news import News
+from messenger import Messenger
 
 print("##### START #####\n\n")
 
@@ -88,3 +89,32 @@ if percentage_of_yesterday_closing_price > 1.0:
         published at: {article["publishedAt"]}
         source: {article["source"]["name"]}
         """)
+
+# 3. Next send yourself an What's up message telling what was the big fluctuation that happened.
+#    Plus, what is the relevant news so that you can decide whether if you want to
+#    sell our stock, or if you want to buy more. Use Twilio platform for sending messages.
+    print("""
+    ###############################################
+    ############## TWILIO - SEND SMS ##############
+    ###############################################
+    """)
+
+    messenger = Messenger()
+
+    for article in articles:
+        article_details = f"""
+            {stock_details["name"]}({stock_details["ticker symbol"]}) {price_direction} by {percentage_of_yesterday_closing_price}%
+            {article["title"]}
+            {article["description"]}
+            author: {article["author"]}
+            link: {article["url"]}
+            published at: {article["publishedAt"]}
+            source: {article["source"]["name"]}
+            """
+        print(article_details)
+        messenger_response = messenger.send_message(text=article_details)
+
+        print(f"messenger status: {messenger_response[1]} \nmessenger sid: {messenger_response[0]}")
+        print("Check your WhatsUp mobile app. Message should be now!")
+
+print("\n\n##### END #####")
